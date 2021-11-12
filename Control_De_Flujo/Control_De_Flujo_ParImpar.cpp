@@ -1,6 +1,6 @@
 /*
-Control de flujo
-Programa que determina si un número es par o impar
+Control de flujo if
+Programa que determina si un nÃºmero es par o impar
 Elaboro MARH
 28.10.2021
 */
@@ -17,12 +17,12 @@ main(){
 	scanf("%d",&a);
 	
 	//Control de flujo
-	if (a%2==0) {//Primera condición
+	if (a%2==0) {//Primera condiciÃ³n
 		printf("\n%d es par", a);
 	}
-	else {//Cualquier cosa que no cumpla la condición anterior
+	else {//Cualquier cosa que no cumpla la condiciÃ³n anterior
 		printf("\n%d es impar", a);
-	} //Se debe indicar el inicio y final de los módulos condicionales
+	} //Se debe indicar el inicio y final de los mÃ³dulos condicionales
 	
 	getch();
 }
