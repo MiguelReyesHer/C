@@ -4,7 +4,7 @@ int - números enteros
 float - números flotantes
 double - punto flotante de doble precisión
 
-Comodines:
+Comodines: (Todos van entre "")
 %c - caracteres
 %d - números enteros; si lo usamos en caracteres, da su valor en ASCII
 %e - (salida) números flotantes en notación exponencial (325.89 -> 3.2589e2)
