@@ -2,3 +2,4 @@ Control de flujo en C:
 If
 else if (elif)
 switch (Case)
+Los ciclos también son controles de flujo, pero se verán en otra carpeta
