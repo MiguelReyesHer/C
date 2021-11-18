@@ -6,7 +6,7 @@ double - punto flotante de doble precisión
 
 Comodines:
 %c - caracteres
-%d - números enteros
+%d - números enteros; si lo usamos en caracteres, da su valor en ASCII
 %e - (salida) números flotantes en notación exponencial (325.89 -> 3.2589e2)
 %f - números flotantes o números dobles
 %g - (salida) números flotantes (ya sea %e o %f)
