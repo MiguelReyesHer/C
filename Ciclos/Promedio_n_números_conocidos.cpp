@@ -1,13 +1,13 @@
 /*
-Ciclo for
-Programa que promedia n números, mientras el usuario conozca el valor de n
+Ciclo for, los valores no se guardan, suponemos que el usuario no los usarÃ¡
+Programa que promedia n nÃºmeros, mientras el usuario conozca el valor de n
 Autor MARH
 11.11.2021
 */
 
 #include <stdio.h>
 #include <conio.h>
-#define N 3//Definimos cuántos n números queremos promediar, indispensable para la condición del ciclo, el 3 se cambia por el los n números que ingresará el usuario
+#define N 3//Definimos cuÃ¡ntos n nÃºmeros queremos promediar, indispensable para la condiciÃ³n del ciclo, el 3 se cambia por el los n nÃºmeros que ingresarÃ¡ el usuario
 
 main(){
     float n,prom;
@@ -15,12 +15,12 @@ main(){
     
     prom=0;//Definimos valor inicial del promedio, cuando no hay valores
     
-    for(i=1;i<=N;i++){//Condicionamos el ciclo (interacción=1;mientras i sea menor o igual a N;aumenta(+1) a la interacción i)
-        printf("Escribe un número: ");
+    for(i=1;i<=N;i++){//Condicionamos el ciclo (interacciÃ³n=1;mientras i sea menor o igual a N;aumenta(+1) a la interacciÃ³n i)
+        printf("Escribe un nÃºmero: ");
         scanf("%f",&n);
-        prom+=n;//Forma de escribir que el promedio será igual a la suma de los n valores, también se puede escribir como: prom=prom+n
+        prom+=n;//Forma de escribir que el promedio serÃ¡ igual a la suma de los n valores, tambiÃ©n se puede escribir como: prom=prom+n
     }
-    prom/=i-1;//Dividimos el promedio entre el número de interacciones i-1, -1 porque i tiene un valor inicial de 1 y se incrementa por cada interacción
+    prom/=i-1;//Dividimos el promedio entre el nÃºmero de interacciones i-1, -1 porque i tiene un valor inicial de 1 y se incrementa por cada interacciÃ³n
     
     printf("\nEl promedio es: %f",prom);
     getch();
