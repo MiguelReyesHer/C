@@ -3,3 +3,13 @@ char - caracter
 int - números enteros
 float - números flotantes
 double - punto flotante de doble precisión
+
+Comodines:
+%c - caracteres
+%d - números enteros
+%e - (salida) números flotantes en notación exponencial (325.89 -> 3.2589e2)
+%f - números flotantes o números dobles
+%g - (salida) números flotantes (ya sea %e o %f)
+%o - número entero en base octal (8).
+%s - cadenas
+%x - número entero en base hexadecimal (16).
