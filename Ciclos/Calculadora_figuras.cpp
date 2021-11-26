@@ -1,5 +1,5 @@
 /*
-Programa que calcula el área y perímetro de un cículo, triángulo, cuadrado y rectángulo con menú de opciones 
+Programa que calcula el Ã¡rea y perÃ­metro de un cÃ­culo, triÃ¡ngulo, cuadrado y rectÃ¡ngulo con menÃº de opciones 
 @Autor: MARH
 @Date: 26.11.2021
 */
@@ -22,16 +22,17 @@ main(){
         printf("\n2. Rectangulo");
         printf("\n3. Cuadrado");
         printf("\n4. Triangulo");
-        printf("\n¿Que operacion desea realizar? ");
+	printf("\n5. Salir");
+        printf("\nÂ¿Que operacion desea realizar? ");
 		scanf("%d",&ope);
 		
 			switch(ope){//Casos para cada figura
 				case 1:
 					printf("\nIngresa el radio del circulo: ");
 					scanf("%f",&a);
-					if(a>0){//Condición que tiene cada caso, para que se otorge un valor aceptado
-						Ar=(a*a)*(pi);//área
-						Pe=(2*pi)*a;//Perímetro
+					if(a>0){//CondiciÃ³n que tiene cada caso, para que se otorge un valor aceptado
+						Ar=(a*a)*(pi);//Ã¡rea
+						Pe=(2*pi)*a;//PerÃ­metro
 						printf("\nEl area del circulo es %f y su perimetro %f",Ar,Pe);
 					}
 					else{
@@ -82,12 +83,14 @@ main(){
 						printf("\nLos valores dados no coinciden con un triangulo: ");
 					}
 					break;
+				case 5:
+					break;
 				default: printf("\n\nDisculpe, no se mas figuras ):");
 			}
 			
-		printf("\n\n\n¿Desea hacer otra operacion? (S/N) ");
+		printf("\n\n\nÂ¿Desea hacer otra operacion? (S/N) ");
 		o=getche();
 	}while(o=='S' || o=='s');
 	
-	printf("\n\n\n¡Que tenga buen dia!");	
+	printf("\n\n\nÂ¡Que tenga buen dia!");	
 }
