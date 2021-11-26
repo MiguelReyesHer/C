@@ -22,8 +22,7 @@ main(){
         printf("\n2. Rectangulo");
         printf("\n3. Cuadrado");
         printf("\n4. Triangulo");
-	printf("\n5. Salir");
-        printf("\n¿Que operacion desea realizar? ");
+        printf("\n\nSelecciona una figura: ");
 		scanf("%d",&ope);
 		
 			switch(ope){//Casos para cada figura
@@ -82,8 +81,6 @@ main(){
 					else{
 						printf("\nLos valores dados no coinciden con un triangulo: ");
 					}
-					break;
-				case 5:
 					break;
 				default: printf("\n\nDisculpe, no se mas figuras ):");
 			}
