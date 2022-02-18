@@ -1,3 +1,6 @@
+//Calculadora básica
+//@autor: Reyes Hernández Miguel Ángel
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
@@ -47,7 +50,7 @@ int main(){
             default: printf("\nOpcion incorrecta\n");
         }
     
-    printf ("�Desea continuar? (s/n): \n");
+    printf ("¿Desea continuar? (s/n): \n");
     op=getche();
 
     }while (op=='S' || op=='s');
